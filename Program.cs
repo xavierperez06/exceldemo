@@ -57,12 +57,12 @@ namespace ExcelDemo
                 new Category()
                 {
                     Name = "Tractores",
-                    Attributes = new List<Attribute>()
+                    Attributes = new List<Entities.Attribute>()
                     {
-                        new Attribute() {Id = 1, DisplayName = "Nombre", IsMultiSelect = false, IsRequired = true, Name = "name", Type = "literal" },
-                        new Attribute() {Id = 2, DisplayName = "Descripción", IsMultiSelect = false, IsRequired = true, Name = "description", Type = "literal" },
-                        new Attribute() {Id = 3, DisplayName = "Modelo", IsMultiSelect = true, IsRequired = false, Name = "model", Type = "literal-array" },
-                        new Attribute() {Id = 4, DisplayName = "Marca", IsMultiSelect = true, IsRequired = true, Name = "brand", Type = "literal-array" }
+                        new Entities.Attribute() {Id = 1, DisplayName = "Nombre", IsMultiSelect = false, IsRequired = true, Name = "name", Type = "literal" },
+                        new Entities.Attribute() {Id = 2, DisplayName = "Descripción", IsMultiSelect = false, IsRequired = true, Name = "description", Type = "literal" },
+                        new Entities.Attribute() {Id = 3, DisplayName = "Modelo", IsMultiSelect = true, IsRequired = false, Name = "model", Type = "literal-array" },
+                        new Entities.Attribute() {Id = 4, DisplayName = "Marca", IsMultiSelect = true, IsRequired = true, Name = "brand", Type = "literal-array" }
                     }
                 }
             };    
