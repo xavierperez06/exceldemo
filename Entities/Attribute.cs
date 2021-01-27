@@ -1,5 +1,5 @@
 ﻿
-namespace ExcelDemo
+namespace ExcelDemo.Entities
 {
     public class Attribute
     {
