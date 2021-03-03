@@ -1,4 +1,6 @@
 ﻿
+using System.Collections.Generic;
+
 namespace ExcelDemo.Entities
 {
     public class Attribute
@@ -9,5 +11,7 @@ namespace ExcelDemo.Entities
         public bool IsRequired { get; set; }
         public string Type { get; set; }
         public bool IsMultiSelect { get; set; }
+        public int Column { get; set; }
+        public List<AttributeValue> Values { get; set; }
     }
 }
